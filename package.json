@@ -1,0 +1,31 @@
+{
+  "name": "video-chat-app",
+  "version": "1.0.0",
+  "description": "this is a video conferencing app built with node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omeco4christ/video-chat-app.git"
+  },
+  "keywords": [
+    "video",
+    "conferencing",
+    "app"
+  ],
+  "author": "Ome Chukwuemeka",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/omeco4christ/video-chat-app/issues"
+  },
+  "homepage": "https://github.com/omeco4christ/video-chat-app#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.1"
+  }
+}
